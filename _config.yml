@@ -1,0 +1,42 @@
+title: The Atlantic Systems Guild
+description: The members of the Atlantic Systems Guild practice, teach, and improve the fields of system requirements definition, team leadership, and project management.
+url: "https://systemsguild.eu"
+baseurl: ""
+lang: en
+timezone: Europe/Berlin
+
+permalink: /:title/
+excerpt_separator: "\n\n"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+feed:
+  path: feed.xml
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+  - scope: { path: "", type: posts }
+    values: { layout: post, category: culture-killers }
+  - scope: { path: "", type: pages }
+    values: { layout: page }
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - tools
+  - reference
+  - docs
+  - README.md
+  - LICENSE

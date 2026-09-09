@@ -1,0 +1,68 @@
+== post: 28 urls
+https://systemsguild.eu/internal-competition
+https://systemsguild.eu/followership
+https://systemsguild.eu/politics
+https://systemsguild.eu/hierarchy-and-network
+https://systemsguild.eu/lack-of-slack-culture-killer
+https://systemsguild.eu/overhead
+https://systemsguild.eu/the-laying-blame-culture-killer
+https://systemsguild.eu/staring-into-the-future
+https://systemsguild.eu/i-dont-know
+https://systemsguild.eu/the-business-of-busyness
+https://systemsguild.eu/knowledge-is-power
+https://systemsguild.eu/the-anti-innovation-society
+https://systemsguild.eu/kick-the-can-down-the-road
+https://systemsguild.eu/denial
+https://systemsguild.eu/authority
+https://systemsguild.eu/overtime
+https://systemsguild.eu/brownie-points
+https://systemsguild.eu/anger
+https://systemsguild.eu/cliche-culture
+https://systemsguild.eu/the-cafeteria
+https://systemsguild.eu/hot-desking
+https://systemsguild.eu/a-day-without-lunch
+https://systemsguild.eu/standard-operating-procedure
+https://systemsguild.eu/the-stepford-hires
+https://systemsguild.eu/bullshit-jobs
+https://systemsguild.eu/anger-war-and-chaos
+https://systemsguild.eu/bureaucracy-is-its-own-reward
+https://systemsguild.eu/gyrating-like-the-price-of-bitcoin
+== page: 15 urls
+https://systemsguild.eu/
+https://systemsguild.eu/sample-page
+https://systemsguild.eu/riskology
+https://systemsguild.eu/culture
+https://systemsguild.eu/suzanne-robertson
+https://systemsguild.eu/james-robertson
+https://systemsguild.eu/peter-hruschka
+https://systemsguild.eu/steve-mcmenamin
+https://systemsguild.eu/tim-lister
+https://systemsguild.eu/contact
+https://systemsguild.eu/about-the-guild
+https://systemsguild.eu/culture-at-work
+https://systemsguild.eu/guild-books
+https://systemsguild.eu/guildsite-robs-template-html
+https://systemsguild.eu/tom-demarco
+== us_portfolio: 0 urls
+== tribe_events: 2 urls
+https://systemsguild.eu/events/
+https://systemsguild.eu/event/killer
+== category: 1 urls
+https://systemsguild.eu/category/culture-killers
+== post_tag: 13 urls
+https://systemsguild.eu/tag/betterculture
+https://systemsguild.eu/tag/culture
+https://systemsguild.eu/tag/cultureatwork
+https://systemsguild.eu/tag/happytoworkhere
+https://systemsguild.eu/tag/hr
+https://systemsguild.eu/tag/humanresources
+https://systemsguild.eu/tag/work
+https://systemsguild.eu/tag/workculture
+https://systemsguild.eu/tag/working
+https://systemsguild.eu/tag/workplace
+https://systemsguild.eu/tag/workplaceculture-2
+https://systemsguild.eu/tag/hiring
+https://systemsguild.eu/tag/workplaceculture
+== author: 2 urls
+https://systemsguild.eu/author/james-robertson
+https://systemsguild.eu/author/tom-demarco
