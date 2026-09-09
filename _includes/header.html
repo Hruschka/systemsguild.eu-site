@@ -1,1 +1,18 @@
-<header class="l-header"></header>
+<header class="l-header">
+  <div class="l-content l-header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+    <label for="nav-toggle" class="nav-toggle-label"><span></span><span></span><span></span></label>
+    <nav class="l-nav">
+      <ul>
+      {% for item in site.data.navigation %}
+        {% assign active = false %}
+        {% if item.url == page.url %}{% assign active = true %}{% endif %}
+        {% if item.url == '/' and page.layout == 'post' %}{% assign active = true %}{% endif %}
+        <li{% if active %} class="active"{% endif %}><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </nav>
+    <a class="mail-link" href="mailto:cultureproject@systemsguild.com">&#9993; MAIL</a>
+  </div>
+</header>
