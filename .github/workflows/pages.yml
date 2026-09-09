@@ -21,6 +21,10 @@ jobs:
           bundler-cache: true
       - id: pages
         uses: actions/configure-pages@v5
+        with:
+          # Lets the workflow switch Pages on (source: GitHub Actions) on first
+          # run, so no manual click in Settings → Pages is needed.
+          enablement: true
       - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
