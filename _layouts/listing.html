@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<section class="l-content">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+  {% if page.tag %}{% assign posts = site.tags[page.tag] %}
+  {% elsif page.author_slug %}{% assign posts = site.posts | where: "author", page.author_slug %}
+  {% else %}{% assign posts = site.posts %}{% endif %}
+  {% include post-list.html posts=posts %}
+</section>
