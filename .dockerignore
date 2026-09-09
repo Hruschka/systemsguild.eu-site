@@ -1,0 +1,8 @@
+# The image only needs the dependency manifests and the docker/ helpers;
+# the site itself is bind-mounted at runtime (see docker-compose.yml).
+**
+!Gemfile
+!Gemfile.lock
+!docker/
+!docker/**
+!tools/requirements.txt

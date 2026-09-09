@@ -1,0 +1,51 @@
+services:
+  jekyll:
+    build: .
+    image: systemsguild-site:latest
+    init: true
+    environment:
+      JEKYLL_ENV: development
+      # Docker Desktop on macOS does not reliably forward file-change events
+      # from a bind mount into the container, so Jekyll polls for changes.
+      # Set POLLING= (empty) if inotify works for you (e.g. Linux, or VirtioFS
+      # with a recent Docker Desktop) to save CPU.
+      POLLING: "--force_polling"
+    volumes:
+      # The site: bind-mounted so edits on the host are seen immediately.
+      - .:/site
+      # Caches live in named volumes, not on the macOS bind mount: writing many
+      # small files through Docker Desktop's file sharing is the slow path.
+      # For the same reason the dev server writes its output to /tmp/_site
+      # inside the container (see command). `make site` runs a plain
+      # `jekyll build`, which lands in ./_site on the host.
+      - jekyll_cache:/site/.jekyll-cache
+      - sass_cache:/site/.sass-cache
+    # 4280 is this site's fixed dev port -- the next free slot in the arc42
+    # 42xx block (see raw/port-assignment.md in meta.arc42.org), so it can run
+    # next to the arc42 sites' dev servers. --port is passed to Jekyll as well
+    # as mapped, so its "Server address:" banner names the real port.
+    ports:
+      - "4280:4280"
+    # No --incremental: full rebuild on change (well under a second for this
+    # site). Incremental silently leaves stale output when permalinks or front
+    # matter change.
+    command: >
+      sh -c "bundle exec jekyll serve --host 0.0.0.0 --port 4280 --watch --destination /tmp/_site $${POLLING}"
+
+  tools:
+    build:
+      context: .
+      dockerfile: docker/tools.Dockerfile
+    image: systemsguild-tools:latest
+    init: true
+    profiles:
+      - tools
+    volumes:
+      # Plain bind mount, so tools/check_urls.py sees the _site/ that
+      # `make site` produced on the host.
+      - .:/site
+    working_dir: /site
+
+volumes:
+  jekyll_cache:
+  sass_cache:

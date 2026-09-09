@@ -30,6 +30,8 @@ defaults:
   - scope: { path: "", type: pages }
     values: { layout: page }
 
+# On top of Jekyll 4's default excludes (vendor/, Gemfile*, node_modules ...).
+# Everything here is build/dev infrastructure, never site content.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -40,3 +42,9 @@ exclude:
   - docs
   - README.md
   - LICENSE
+  - Dockerfile
+  - docker-compose.yml
+  - docker
+  - Makefile
+  - .dockerignore
+  - .venv
