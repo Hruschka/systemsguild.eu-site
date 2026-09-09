@@ -1,0 +1,15 @@
+---
+# Front matter makes Jekyll process the Liquid below, so the icon paths respect
+# site.baseurl (the preview URL lives under a repo subpath; the live domain does not).
+---
+{
+  "name": "The Atlantic Systems Guild",
+  "short_name": "Systems Guild",
+  "icons": [
+    { "src": "{{ '/assets/favicon/favicon-192.png' | relative_url }}", "sizes": "192x192", "type": "image/png" },
+    { "src": "{{ '/assets/favicon/favicon-512.png' | relative_url }}", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#2c3e50",
+  "background_color": "#ffffff",
+  "display": "browser"
+}
