@@ -1,8 +1,29 @@
 ---
 layout: default
-title: Home
+title: This Week’s Culture Killer
+body_class: home
 ---
-<div class="l-content two-col">
-  <div class="col-main latest-post"><h2>Workplace Culture: This Week’s Culture Killer</h2><p>Lorem ipsum placeholder to check the layout.</p></div>
-  <aside class="col-side news"><h2>News</h2><div class="news-item"><p>Placeholder</p></div></aside>
+<div class="l-content">
+  <div class="hero">
+    <img src="{{ '/assets/uploads/2018/11/Systemsguild_FotoMallorca.jpg' | relative_url }}"
+         alt="The principals of the Atlantic Systems Guild: Tom DeMarco, Steve McMenamin, Peter Hruschka, Suzanne Robertson, Tim Lister, James Robertson">
+  </div>
+  <div class="two-col">
+    <div class="col-main">
+      {% assign post = site.posts.first %}
+      <section class="latest-post">
+        <h2>Workplace Culture: This Week’s Culture Killer</h2>
+        <div class="intro clearfix">
+          <img class="figure left intro-skull" src="{{ '/assets/uploads/2021/06/RedSkull-300-150x150.png' | relative_url }}" alt="Culture Killer">
+          <p>A culture killer is what ruins workplace culture in spite of your every effort. When we were researching our new book, <strong><em><a href="https://www.amazon.com/Happy-Work-Here-Understanding-Improving/dp/0989282066/">Happy to Work Here: understanding and improving the culture at work</a></em></strong>, we came to the conclusion that some toxic cultural behavior was the result of people adhering to certain <strong>unspoken rules</strong>. These rules are unspoken because they are, frankly, unspeakable. But despite the fact that you never hear anybody say them out loud, they can do considerable damage to your workplace culture. It’s these unspeakable unspoken rules that we refer to as “culture killers.”</p>
+        </div>
+        <p>This week’s Unspoken Rule is the one that enables:</p>
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {{ post.content }}
+        {% include post-meta.html page=post %}
+      </section>
+      <p class="tell-us"><em>You must have a story or two about the cultures, good and bad, that you’ve encountered, either in your present work or in your past. Have you been fortunate enough to see wonderful workplace culture in action, and to what do you attribute it? Or do have an unspoken rule damaging your culture? If so, what do you suppose was its cause? Tell us about it</em>: <a href="mailto:cultureproject@systemsguild.com">cultureproject@systemsguild.com</a></p>
+    </div>
+    {% include news.html %}
+  </div>
 </div>

@@ -1,0 +1,9 @@
+<aside class="col-side news">
+  <h2>News</h2>
+  {% for item in site.data.news %}
+  <div class="news-item">
+    {% if item.image %}{% if item.link %}<a href="{{ item.link }}">{% endif %}<img src="{{ item.image | relative_url }}" alt="">{% if item.link %}</a>{% endif %}{% endif %}
+    <p>{{ item.html }}</p>
+  </div>
+  {% endfor %}
+</aside>

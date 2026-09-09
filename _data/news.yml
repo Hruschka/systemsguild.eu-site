@@ -1,0 +1,43 @@
+# NEWS sidebar on the home page. One entry per item, newest first.
+# image: path under /assets/uploads (optional). html: text with inline HTML links.
+- image: /assets/uploads/2025/02/AudioDHHMedium-150x150.jpg
+  link: https://www.tomdemarco.com/Books/audiobooks.html
+  html: 'New in 2025: Audiobook of Tom DeMarco’s earlier comic novel, <em>Dark Harbor House,</em> is now available. <a href="https://www.tomdemarco.com/Books/audiobooks.html">Click for details.</a>'
+- image: /assets/uploads/2022/05/junkiesgerman.png
+  link: https://www.amazon.de/-/en/Tom-DeMarco-dp-3446473068/dp/3446473068/
+  html: 'Neue und erweiterte Auflage 2 jetzt verfügbar. <strong>Adrenalin-Junkies und Formular-Zombies: Typisches Verhalten in Projekten</strong>. Hardback <a href="https://www.amazon.de/-/en/Tom-DeMarco-dp-3446473068/dp/3446473068/">Amazon.de</a>'
+- image: /assets/uploads/2022/09/AudioTraveler-150x150.jpg
+  html: 'Tom DeMarco’s speculative novel, <em><a href="http://tomdemarco.com/Books/timetraveler.html">The One-Way Time Traveler</a></em>, now available in <a href="https://www.chirpbooks.com/audiobooks/the-one-way-time-traveler-by-tom-demarco">audiobook</a> in addition to <a href="https://www.amazon.com/One-Way-Time-Traveler-Tom-DeMarco-ebook/dp/B07DPTNZLD/">paperback and ebook</a>. Time traveler John Donegal is thrust forward into a matriarchal future, and he can’t go back again. Worse still the great love of his life, Jill is left behind. Any chance of a happy ending here? (Don’t bet against Jill.)'
+- image: /assets/uploads/2022/01/HTWHSquare2Flow-150x150.png
+  html: '<strong>How workplace culture affects workplace performance:</strong> We know they’re linked, but now we know a bit more about how and why: <a href="https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/5904/How-Workplace-Culture-Affects-Workplace-Performance.aspx">Article by Suzanne and James Robertson in <em>Modern Analyst.</em></a>'
+- image: /assets/uploads/2021/05/cover-6x9-thumbnail.png
+  html: '<strong>Happy to Work Here</strong>. A practical guide to understanding and improving your workplace culture. Available in paperback and Kindle. <a href="https://www.amazon.com/Happy-Work-Here-Understanding-Improving/dp/0989282066/">amazon.com</a> &nbsp; <a href="https://www.amazon.co.uk/Happy-Work-Here-Understanding-Improving/dp/0989282066/">amazon.co.uk</a>'
+- image: /assets/uploads/2021/06/HTWH-Titel-Deutsch-70-copy.png
+  link: https://www.amazon.de/Happy-work-here-Betriebsklima-verbessern/dp/3446468722/
+  html: 'The German edition of <strong>Happy to Work Here: Betriebsklima verstehen und verbessern</strong> has been published by Hanser. Hardback at <a href="https://www.amazon.de/Happy-work-here-Betriebsklima-verbessern/dp/3446468722/">amazon.de</a>'
+- image: /assets/uploads/2021/06/S17-Badge-150.jpg
+  html: 'Two coauthors reflect on some of the unexpected implications that a reader may detect in what they’ve written. <a href="https://www.youtube.com/watch?v=e7yYJbqYRRQ">YouTube</a>'
+- image: /assets/uploads/2021/06/thumbnail-S14-150.png
+  link: https://www.youtube.com/watch?v=Q8I2kyr7a94
+  html: 'See Tom DeMarco squirm as a rough critic trashes his most recent work. <a href="https://www.youtube.com/watch?v=Q8I2kyr7a94">YouTube</a>'
+- image: /assets/uploads/2021/06/youtube-badge-150.png
+  link: https://www.youtube.com/watch?v=BZ77SEhQAJs&t=19s
+  html: 'Tom DeMarco gives away one of the secrets of the new book, <em>Happy to Work Here</em>. <a href="https://www.youtube.com/watch?v=BZ77SEhQAJs&t=19s">YouTube</a>'
+- image: /assets/uploads/2021/06/S06-thumbnail-150.png
+  link: https://www.youtube.com/watch?v=YE3uz-KCDVE
+  html: 'Understand how to dissect the culture of your workplace as a device for improving it. <a href="https://www.youtube.com/watch?v=YE3uz-KCDVE">YouTube</a>'
+- image: /assets/uploads/2021/06/S12-thumbnail-150.png
+  link: https://www.youtube.com/watch?v=PfurI-jydKI
+  html: 'What happens when you challenge cultural norms? <a href="https://www.youtube.com/watch?v=PfurI-jydKI">YouTube</a>'
+- image: /assets/uploads/2019/04/ShowThumbnail.aspx_.jpeg
+  link: https://www.amazon.com/Business-Analysis-Agility-Problem-Deliver/dp/0134847067/atlanticsyste-21
+  html: 'A <a href="https://youtu.be/l_9u5UI12uo">video</a> about our new book <a href="https://www.amazon.com/Business-Analysis-Agility-Problem-Deliver/dp/0134847067/atlanticsyste-21">Business Analysis Agility</a> – solve the real problem, deliver the right solution. <a href="https://www.amazon.com/Business-Analysis-Agility-Problem-Deliver/dp/0134847067/atlanticsyste-21">Amazon</a> &nbsp; <a href="https://youtu.be/l_9u5UI12uo">YouTube</a>'
+- image: /assets/uploads/2019/04/ShowThumbnail-1.aspx_.jpeg
+  link: http://www.informit.com/title/9780134189758
+  html: 'Suzanne and James Robertson’s <em><a href="http://www.informit.com/store/requirements-the-masterclass-livelessons-traditional-9780134189826">Requirements: The Masterclass LiveLessons – Traditional, Agile, Outsourcing</a></em>. 15+ Hours of Video Instruction'
+- image: /assets/uploads/2019/04/ShowThumbnail.aspx_.png
+  link: http://tomdemarco.com/Books/tms.html
+  html: '<em><a href="http://tomdemarco.com/Books/tms.html">A Ruby Beam of Light</a></em>, Book I of Tom DeMarco’s Dark World Chronicles saga is now reissued in a <a href="https://www.amazon.com/One-Way-Time-Traveler-Tom-DeMarco-ebook/dp/B07DPTNZLD">new edition</a>. “This war isn’t going to blow anything up, only turn everything off.”'
+- image: /assets/uploads/2019/04/ShowThumbnail-1.aspx_.png
+  link: https://www.youtube.com/watch?v=5MJFak_6i_c
+  html: 'James Robertson’s webinar for <a href="http://www.softed.com/">Software Education</a> explains how agile stories are best used to ensure the right solution. Download the <a href="http://www.volere.co.uk/pdf%20files/writing%20the%20right%20stories.pdf">webinar slides</a>.'

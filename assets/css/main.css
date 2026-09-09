@@ -46,7 +46,9 @@ img{max-width:100%;height:auto}
 .news h2{font-size:1.6rem;text-transform:uppercase;margin-bottom:1rem}
 .news-item{display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--c-link);font-size:.9rem}
 .news-item:nth-of-type(even){flex-direction:row-reverse}
-.news-item img{width:40%;flex:none;object-fit:contain;align-self:flex-start}
+.news-item>img,.news-item>a{width:40%;flex:none;align-self:flex-start}
+.news-item>a img{width:100%;display:block}
+.news-item img{object-fit:contain}
 .news-item p{margin:0}
 
 /* posts */
@@ -90,9 +92,13 @@ img{max-width:100%;height:auto}
   .two-col{flex-direction:column}
   .two-col .col-main,.two-col .col-side{width:100%}
   .news-item,.news-item:nth-of-type(even){flex-direction:column}
-  .news-item img{width:60%}
+  .news-item>img,.news-item>a{width:60%}
   .book{flex-direction:column}
   .figure.left,.figure.right{float:none;max-width:100%;margin:0 0 1rem}
   .rule{margin-left:0}
   .latest-post h2.post-title{margin:1rem -1.5rem}
 }
+
+/* home intro */
+.intro-skull{width:110px;margin:0 1.5rem .5rem 0}
+.tell-us{margin-top:1.5rem}
