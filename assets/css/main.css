@@ -107,3 +107,7 @@ img{max-width:100%;height:auto}
 .contact-list dt{font-weight:700;margin-top:1rem}
 .contact-list dd{margin:0}
 .aligncenter{display:block;margin:0 auto 1.5rem}
+
+/* guild books */
+.books-banner{text-align:center;margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(--c-border)}
+.books-banner img{max-height:220px}

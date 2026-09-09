@@ -1,0 +1,11 @@
+{% for b in site.data.books %}
+<div class="book">
+  {% if b.cover %}<img src="{{ b.cover | relative_url }}" alt="Cover of {{ b.title }}">{% endif %}
+  <div>
+    <h3>{{ b.title }}</h3>
+    <p class="by">by: {{ b.authors }}</p>
+    {% if b.blurb %}<p>{{ b.blurb }}</p>{% endif %}
+    <ul>{% for l in b.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}</ul>
+  </div>
+</div>
+{% endfor %}

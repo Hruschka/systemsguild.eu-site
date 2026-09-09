@@ -1,0 +1,99 @@
+# Books shown on /guild-books/, in display order.
+# Fields: title, authors, cover (path under /assets/uploads), blurb (may contain inline HTML), links: [{label, url}]
+- title: Business Analysis Agility – Solve the Real Problem, Deliver Real Value
+  authors: Suzanne and James Robertson
+  cover: /assets/uploads/2019/04/71WULXhtIVL._AC_UL436_.jpg
+  blurb: To deliver real value, you must understand what your customers truly value, and solve the problems they really need solved. Business analysis can help you do this—and it’s as crucial in agile environments now as it always has been.
+  links:
+    - label: Amazon
+      url: https://www.amazon.com/Business-Analysis-Agility-Problem-Deliver-ebook/dp/B07J2PMFL7/
+- title: Business Analysis und Requirements Engineering – Produkte und Prozesse nachhaltig verbessern
+  authors: Peter Hruschka (in German)
+  cover: /assets/uploads/2019/04/41xnL7sLbTL._SX335_BO1204203200_.jpg
+  blurb: 'Successful cooperation between Business and IT; one goal (independent of your job title): Establish products, systems and processes that delight users; pragmatic methods to identify and communicate requirements.<br><br>This book covers all of IREB’s foundation level, as well as the advanced levels “Requirements Modeling” and “RE@Agile”'
+  links:
+    - label: Amazon
+      url: https://www.amazon.de/Business-Analysis-Requirements-Engineering-nachhaltig/dp/3446455892/
+- title: Handbook of the RE@Agile According to the IREB Standard
+  authors: Peter Hruschka et al.
+  cover: /assets/uploads/2019/04/IREB-RE-AGILE.jpg
+  blurb: Official handbook for the IREB Advanced Module “RE@Agile” (Requirements Engineering in an Agile Environment)
+  links:
+    - label: Free download from the IREB Website
+      url: https://www.ireb.org/en/downloads/tag:advanced-level-re-agile
+- title: Adrenaline Junkies and Template Zombies – Understanding Patterns of Project Behavior
+  authors: Tom DeMarco, Peter Hruschka, Tim Lister, Steve McMenamin, James Robertson, Suzanne Robertson
+  cover: /assets/uploads/2019/04/51JlFQRdMkL._SX332_BO1204203200_.jpg
+  blurb: “Another masterpiece. Anyone who has survived a software project or two will surely recognize many of these patterns and will be able to learn from most of them. Adrenaline Junkies and Template Zombies is a real joy.” –Joel Spolsky, author of Joel on Software.
+  links:
+    - label: This book at Amazon.com
+      url: http://www.amazon.com/Adrenaline-Junkies-Template-Zombies-Understanding/dp/0932633676/theatlanticsyste
+    - label: Dorset House
+      url: http://www.dorsethouse.com/books/ajtz.html
+    - label: Buy at InformIT.com
+      url: http://click.linksynergy.com/fs-bin/click?id=BdY3qNQC9kw&offerid=145238.10000346&type=3&subid=0
+- title: Communicating Software Architectures – Lean, Effective & Painless Documentation
+  authors: Gernot Starke & Peter Hruschka
+  cover: /assets/uploads/2019/04/medium.png
+  blurb: Lots of practical advice based on more than 10 years of experience using the arc42-template for software architecture documentation.
+  links:
+    - label: Leanpub
+      url: https://leanpub.com/bookstore?search=hruschka
+- title: 'ARC42 in Aktion: Praktische Tipps zur Architekturdokumentation'
+  authors: Gernot Starke & Peter Hruschka (in German)
+  cover: /assets/uploads/2019/04/419XU7utheL._SX353_BO1204203200_.jpg
+  blurb: More than 200 hints for applying the arc42-template for software architecture documentation.
+  links:
+    - label: Amazon
+      url: https://www.amazon.de/arc42-Aktion-Praktische-Tipps-Architekturdokumentation/dp/3446448012/
+- title: Knigge für Software Architekten (3rd edition)
+  authors: Peter Hruschka & Gernot Starke (in German)
+  cover: /assets/uploads/2019/04/91pcH3I1GJL._AC_UL436_.jpg
+  blurb: 'Behavioral patterns of software architects: 38 short stories on what to do and what not to do in this key role of IT projects.'
+  links:
+    - label: Amazon
+      url: https://www.amazon.de/Knigge-für-Softwarearchitekten-Peter-Hruschka/dp/3868028064/
+- title: Peopleware – Productive Projects and Teams. Third Edition
+  authors: Tom DeMarco & Timothy Lister
+  cover: /assets/uploads/2019/04/61lAwzXfQiL._SX385_BO1204203200_.jpg
+  blurb: 'The unique insight of this longtime best seller is that the major issues of software development are human, not technical. For this third edition, the authors have added six new chapters and updated the text throughout, bringing it in line with today’s development environments and challenges.<br><br>“Peopleware is the one book that everyone who runs a software team needs to read and reread once a year.” Joel Spolsky, Co-founder, Stack Overflow'
+  links:
+    - label: Amazon
+      url: http://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113
+    - label: Buy at InformIT.com
+      url: http://click.linksynergy.com/fs-bin/click?id=BdY3qNQC9kw&offerid=145238.10000349&type=3&subid=0
+    - label: Barnes & Noble
+      url: http://www.barnesandnoble.com/w/peopleware-tom-demarco/1116742046?ean=9780321934116
+- title: Mastering the Requirements Process – Getting Requirements Right. Third Edition
+  authors: Suzanne Robertson and James Robertson
+  cover: /assets/uploads/2021/06/MRP3ed-cover-330.jpg
+  blurb: “This book covers everything you wanted to know about requirements and a fair bit of stuff you didn’t know—yet—that you needed.” —Stephen Mellor.
+  links:
+    - label: E-book at Kindle
+      url: http://www.amazon.co.uk/Complete-Systems-Analysis-Workbook-ebook/dp/B00DY3KQJA/
+    - label: Buy as hardcover or e-book at InformIT.com
+      url: http://click.linksynergy.com/fs-bin/click?id=BdY3qNQC9kw&offerid=145238.10000348&type=3&subid=0
+- title: Requirements-Led Project Management – Discovering David’s Slingshot
+  authors: Suzanne and James Robertson
+  cover: /assets/uploads/2021/06/Robertson_last_2_0001-330.png
+  blurb: “This elegant and informative book is the follow-up to the Robertsons’ Mastering the Requirements Process. It isn’t very often that a reviewer finds he can’t put a technical book down, but it happened this time. This book is the product of seriously good consultancy over “more than a quarter century”; and that is supported by beautifully clear writing, not to mention James Robertson’s fresh and witty illustrations.” — Ian Alexander
+  links:
+    - label: This book at Amazon
+      url: http://www.amazon.com/exec/obidos/ASIN/0321180623/theatlanticsyste
+- title: Complete Systems Analysis – the Workbook, the Textbook, the Answers
+  authors: Suzanne Robertson & James Robertson
+  cover: /assets/uploads/2019/04/csa.jpg
+  blurb: Now available in e-book format. The book contains process and data models for a complete case study as well as a comprehensive reference work for the modelling notations and how to use the models to take a variety of viewpoints.
+  links:
+    - label: Kindle
+      url: http://www.amazon.co.uk/Complete-Systems-Analysis-Workbook-ebook/dp/B00DY3KQJA/
+    - label: Buy at InformIT.com
+      url: http://click.linksynergy.com/fs-bin/click?id=BdY3qNQC9kw&offerid=145238.10000347&type=3&subid=0
+    - label: Download a sample chapter
+      url: http://www.informit.com/articles/article.aspx?p=2122833&WT.mc_id=Author_Robertson_Chap2
+- title: Software-Architektur kompakt
+  authors: Gernot Starke & Peter Hruschka
+  cover: /assets/uploads/2019/04/softwarearchitekturkompakt.jpg
+  links:
+    - label: This book at Amazon.de
+      url: http://www.amazon.de/Software-Architektur-kompakt-zielorientiert-Gernot-Starke/dp/3827420938/
