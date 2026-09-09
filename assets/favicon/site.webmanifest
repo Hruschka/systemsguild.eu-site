@@ -1,6 +1,8 @@
 ---
 # Front matter makes Jekyll process the Liquid below, so the icon paths respect
 # site.baseurl (the preview URL lives under a repo subpath; the live domain does not).
+# layout: null keeps the _config.yml default page layout from wrapping this JSON.
+layout: null
 ---
 {
   "name": "The Atlantic Systems Guild",
