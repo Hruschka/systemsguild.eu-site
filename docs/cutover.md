@@ -7,7 +7,7 @@ Prerequisite: the repository is on GitHub, the Pages workflow has run successful
 3. At the domain registrar / DNS provider (the WordPress site is hosted at IONOS/1&1):
    - `A` records for the apex `systemsguild.eu` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `AAAA` records → `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
-   - `CNAME` for `www` → `<owner>.github.io` (e.g. `gernotstarke.github.io`, or the organisation's name after a transfer)
+   - `CNAME` for `www` → `<owner>.github.io` (currently `Hruschka.github.io`, or the organisation's name after a transfer)
    - remove the old `A` record that points at the WordPress host
 4. Wait for propagation (minutes up to 24 h). Verify:
    ```bash

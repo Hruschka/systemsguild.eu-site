@@ -426,7 +426,7 @@ git commit -m "feat: base layout and stylesheet reproducing the original design"
 - Create: `.github/workflows/pages.yml`, `404.html`
 
 **Interfaces:**
-- Produces: public repo `gernotstarke/systemsguild.eu-site` (can be transferred to a Guild organisation later), deploy URL printed by the workflow. Every push to `main` deploys.
+- Produces: public repo `Hruschka/systemsguild.eu-site` (can be transferred to a Guild organisation later), deploy URL printed by the workflow. Every push to `main` deploys.
 
 - [ ] **Step 1: Workflow file** (GitHub's documented Jekyll 4 workflow)
 
@@ -488,14 +488,14 @@ sitemap: false
 
 ```bash
 git add .github 404.html && git commit -m "ci: GitHub Pages deployment workflow and 404 page"
-gh repo create gernotstarke/systemsguild.eu-site --public --source=. --remote=origin --description "Static Jekyll site for systemsguild.eu (migrated from WordPress)" --push
-gh api -X POST repos/gernotstarke/systemsguild.eu-site/pages -f build_type=workflow
+gh repo create Hruschka/systemsguild.eu-site --public --source=. --remote=origin --description "Static Jekyll site for systemsguild.eu (migrated from WordPress)" --push
+gh api -X POST repos/Hruschka/systemsguild.eu-site/pages -f build_type=workflow
 gh run watch --exit-status
-gh api repos/gernotstarke/systemsguild.eu-site/pages --jq .html_url
+gh api repos/Hruschka/systemsguild.eu-site/pages --jq .html_url
 ```
 Expected: run succeeds; `curl -sI <html_url>` returns 200 and the page shows the placeholder with the dark header (CSS loaded via `relative_url`, so the `/systemsguild.eu-site/` prefix is respected).
 
-If `gh api -X POST .../pages` fails with 409 (already exists), run `gh api -X PUT repos/gernotstarke/systemsguild.eu-site/pages -f build_type=workflow`.
+If `gh api -X POST .../pages` fails with 409 (already exists), run `gh api -X PUT repos/Hruschka/systemsguild.eu-site/pages -f build_type=workflow`.
 
 ---
 
