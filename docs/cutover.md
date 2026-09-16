@@ -4,6 +4,7 @@ Prerequisite: the repository is on GitHub, the Pages workflow has run successful
 
 1. In the repository: add a file `CNAME` containing exactly `systemsguild.eu`, commit and push. (`_config.yml` already has `url: https://systemsguild.eu`.)
 2. GitHub → repository Settings → Pages → Custom domain: enter `systemsguild.eu`, save, wait for the DNS check to pass, then tick **Enforce HTTPS** (the certificate comes from Let's Encrypt and is managed by GitHub).
+   Then re-run the Pages workflow (Actions → Deploy Jekyll site to Pages → Run workflow): builds made before the custom domain was set use the base path `/systemsguild.eu-site`, so CSS and links break on the custom domain.
 3. At the domain registrar / DNS provider (the WordPress site is hosted at IONOS/1&1):
    - `A` records for the apex `systemsguild.eu` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `AAAA` records → `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
