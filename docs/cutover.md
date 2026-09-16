@@ -8,7 +8,9 @@ Prerequisite: the repository is on GitHub, the Pages workflow has run successful
    - `A` records for the apex `systemsguild.eu` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `AAAA` records → `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
    - `CNAME` for `www` → `<owner>.github.io` (currently `Hruschka.github.io`, or the organisation's name after a transfer)
-   - remove the old `A` record that points at the WordPress host
+   - remove the old `A` (`217.160.0.133`) and `AAAA` (`2001:8d8:100f:f000::2de`) records of the WordPress host, for the apex and for `www` (`www` is currently an `A` record and must be deleted before the `CNAME` can be created)
+   - leave `MX` (`mx00`/`mx01.ionos.de`) and the SPF `TXT` record untouched, otherwise mail breaks
+   - keep the IONOS nameservers (`ns10xx.ui-dns.*`); only records change
 4. Wait for propagation (minutes up to 24 h). Verify:
    ```bash
    curl -sI https://systemsguild.eu/followership/ | head -1     # HTTP/2 200
